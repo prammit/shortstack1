@@ -1,10 +1,10 @@
-Burst ver 1.0.0
+Port ver 1.0.0
 
 Requirements:
 Java 7 compatible JVM
 
 Setup:
-Before you do anything, sync your clock.  Burst uses your computer clock's time, and having the time off too much could cause you to reject legit blocks, or miss out on blocks you could have mined. On linux "sudo ntpd -gq", on windows go to change date/time, and go to internet time and tell it to sync with a time server.
+Before you do anything, sync your clock.  Port uses your computer clock's time, and having the time off too much could cause you to reject legit blocks, or miss out on blocks you could have mined. On linux "sudo ntpd -gq", on windows go to change date/time, and go to internet time and tell it to sync with a time server.
 
 Please open conf/nxt-default.properties in a text editor, and add your ip:8123 to the line nxt.myAddress=, so it looks like "nxt.myAddress=111.111.111.111:8123", and forward 8123 if behind a NAT. This is not required, but will help the network by reducing the load on other nodes.
 
